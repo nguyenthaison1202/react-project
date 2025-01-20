@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './layout/Navbar';
+import Header from './components/Header';
+import TableUsers from './components/TableUsers';
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
+    <div className='app-container'>
+      <Header></Header>
+      <TableUsers></TableUsers>
     </div>
   );
 }
